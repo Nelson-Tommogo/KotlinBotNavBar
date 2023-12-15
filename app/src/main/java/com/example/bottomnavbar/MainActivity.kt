@@ -49,10 +49,6 @@ fun BottomNavComposable(navController: NavHostController) {
                             },
                             modifier = Modifier.weight(1f),
                             content = {
-                                Icon(
-                                    imageVector = if (index == selectedItemIndex) icon else icon.copy(defaultHeight = 24.dp, defaultWidth = 24.dp),
-                                    contentDescription = title
-                                )
                             }
                         )
                     }
