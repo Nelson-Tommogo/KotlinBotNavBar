@@ -49,6 +49,10 @@ fun BottomNavComposable(navController: NavHostController) {
                             },
                             modifier = Modifier.weight(1f),
                             content = {
+                                Icon(
+                                    imageVector = icon,
+                                    contentDescription = title
+                                )
                             }
                         )
                     }
